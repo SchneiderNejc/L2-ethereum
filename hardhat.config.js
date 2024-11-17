@@ -19,7 +19,16 @@ module.exports = {
   },
   networks: {
     arbitrum: {
-      url: process.env.L2_RPC,
+      url: process.env.ARBITRUM_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    optimism: {
+      url: process.env.OPTIMISM_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    zkevm: {
+      // Polygon Cordona
+      url: process.env.ZKEVM_RPC,
       accounts: [process.env.PRIVATEKEY],
     },
   },
