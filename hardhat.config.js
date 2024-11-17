@@ -5,7 +5,9 @@ require("dotenv").config();
 module.exports = {
   etherscan: {
     apiKey: {
-      arbitrum: process.env.ARBITRUM,
+      arbitrumSepolia: process.env.ARBITRUM_API,
+      optimismSepolia: process.env.OPTIMISM_API,
+      polygonZkEVMTestnet: process.env.ZKEVM_API,
     },
   },
   solidity: {
