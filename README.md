@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# L2 networks
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+With this project we deploy sample getter/setter to various ethereum layer-2 networks.
 
 Try running some of the following tasks:
 
