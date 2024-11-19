@@ -8,6 +8,17 @@ module.exports = {
       arbitrumSepolia: process.env.ARBITRUM_API,
       optimismSepolia: process.env.OPTIMISM_API,
       polygonZkEVMTestnet: process.env.ZKEVM_API,
+      sepolia: process.env.SEPOLIA_API,
+      polygonAmoy: process.env.AMOY_API,
+      baseSepolia: process.env.BASE_API,
+      bscTestnet: process.env.BSC_API,
+
+      // hardhat-verify not supported:
+      //Linea
+      //blast
+      //starknet
+      //mantle
+      //celo
     },
   },
   solidity: {
