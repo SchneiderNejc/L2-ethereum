@@ -44,5 +44,57 @@ module.exports = {
       url: process.env.ZKEVM_RPC,
       accounts: [process.env.PRIVATEKEY],
     },
+
+    sepolia: {
+      // Ethereum Sepolia
+      url: process.env.SEPOLIA_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    linea: {
+      // Linea testnet
+      url: process.env.LINEA_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    polygon: {
+      // Polygon Amoy
+      url: process.env.AMOY_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    base: {
+      // Base testnet
+      url: process.env.BASE_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    blast: {
+      // Blast Sepolia
+      url: process.env.BLAST_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+
+    avalanche: {
+      // Avalanche C-Chain Fuji
+      url: process.env.AVALANCHE_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    starknet: {
+      // Starknet Sepolia
+      url: process.env.STARKNET_RPC,
+      accounts: [process.env.STARKKEY],
+    },
+    bsc: {
+      // BSC testnet
+      url: process.env.BSC_TESTNET,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    mantle: {
+      // Mantle Sepolia
+      url: process.env.MANTLE_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
+    celo: {
+      // Celo Alfajores
+      url: process.env.CELO_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
   },
 };
