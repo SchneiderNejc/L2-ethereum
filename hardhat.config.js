@@ -12,9 +12,7 @@ module.exports = {
       polygonAmoy: process.env.AMOY_API,
       baseSepolia: process.env.BASE_API,
       bscTestnet: process.env.BSC_API,
-
       // hardhat-verify not supported:
-      //Linea
       //blast
       //starknet
       //mantle
@@ -31,28 +29,24 @@ module.exports = {
     },
   },
   networks: {
+    sepolia: {
+      // Ethereum Sepolia
+      url: process.env.SEPOLIA_RPC,
+      accounts: [process.env.PRIVATEKEY],
+    },
     arbitrum: {
+      // Arbitrum Sepolia
       url: process.env.ARBITRUM_RPC,
       accounts: [process.env.PRIVATEKEY],
     },
     optimism: {
+      // Optimism Sepolia
       url: process.env.OPTIMISM_RPC,
       accounts: [process.env.PRIVATEKEY],
     },
     zkevm: {
       // Polygon Cordona
       url: process.env.ZKEVM_RPC,
-      accounts: [process.env.PRIVATEKEY],
-    },
-
-    sepolia: {
-      // Ethereum Sepolia
-      url: process.env.SEPOLIA_RPC,
-      accounts: [process.env.PRIVATEKEY],
-    },
-    linea: {
-      // Linea testnet
-      url: process.env.LINEA_RPC,
       accounts: [process.env.PRIVATEKEY],
     },
     polygon: {
@@ -68,12 +62,6 @@ module.exports = {
     blast: {
       // Blast Sepolia
       url: process.env.BLAST_RPC,
-      accounts: [process.env.PRIVATEKEY],
-    },
-
-    avalanche: {
-      // Avalanche C-Chain Fuji
-      url: process.env.AVALANCHE_RPC,
       accounts: [process.env.PRIVATEKEY],
     },
     starknet: {
