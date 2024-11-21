@@ -14,3 +14,12 @@ Mantle Sepolia https://sepolia.mantlescan.xyz/address/0x56ae34F87eA05752C0A071CF
 
 Non-L2
 Celo Alfajores https://celo-alfajores.blockscout.com/address/0xD7467878E12d3621dc97c311BDa0820Dc4c402b4
+
+Notes:
+
+Linea NO FAUCET/BRIDGE, issues
+Avalanche C-Chain Fuji NO TEST FAUCET
+Starknet Sepolia - requires Starknet CLI
+
+Also check
+https://github.com/SchneiderNejc/self-destruct-hardhat
